@@ -7,4 +7,4 @@ total. It also lets the user choose the tip percentage.
 
 Time spent: 1 hour total
 
-![alt tag](https://raw.github.com/Musicophilia/tips-new/blob/master/tips-demo-1.gif)
+![alt tag](https://raw.github.com/Musicophilia/tips-new/master/tips-demo-1.gif)
