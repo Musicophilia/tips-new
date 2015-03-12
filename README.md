@@ -11,4 +11,4 @@ between views, entering different amounts and adjusting tip percentages.
 
 Time spent: 4 hours total
 
-![alt tag](https://raw.github.com/Musicophilia/tips-new/master/tips-demo-3.gif)
+![alt tag](https://raw.github.com/Musicophilia/tips-new/master/tips-demo-2.gif)
