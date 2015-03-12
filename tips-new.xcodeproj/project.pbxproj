@@ -13,6 +13,8 @@
 		D1E0A42A1AAEE2B300D35E1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1E0A4291AAEE2B300D35E1E /* Images.xcassets */; };
 		D1E0A42D1AAEE2B300D35E1E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1E0A42B1AAEE2B300D35E1E /* LaunchScreen.xib */; };
 		D1E0A4391AAEE2B400D35E1E /* tips_newTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E0A4381AAEE2B400D35E1E /* tips_newTests.swift */; };
+		D1E0A4431AB1606F00D35E1E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E0A4421AB1606F00D35E1E /* SettingsViewController.swift */; };
+		D1E0A4471AB16BE900D35E1E /* BackSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E0A4461AB16BE900D35E1E /* BackSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		D1E0A4321AAEE2B400D35E1E /* tips-newTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tips-newTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E0A4371AAEE2B400D35E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1E0A4381AAEE2B400D35E1E /* tips_newTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tips_newTests.swift; sourceTree = "<group>"; };
+		D1E0A4421AB1606F00D35E1E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D1E0A4461AB16BE900D35E1E /* BackSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 		D1E0A4141AAEE2B300D35E1E = {
 			isa = PBXGroup;
 			children = (
+				D1E0A4461AB16BE900D35E1E /* BackSegue.swift */,
 				D1E0A41F1AAEE2B300D35E1E /* tips-new */,
 				D1E0A4351AAEE2B400D35E1E /* tips-newTests */,
 				D1E0A41E1AAEE2B300D35E1E /* Products */,
@@ -80,6 +85,7 @@
 				D1E0A4221AAEE2B300D35E1E /* AppDelegate.swift */,
 				D1E0A4241AAEE2B300D35E1E /* ViewController.swift */,
 				D1E0A4261AAEE2B300D35E1E /* Main.storyboard */,
+				D1E0A4421AB1606F00D35E1E /* SettingsViewController.swift */,
 				D1E0A4291AAEE2B300D35E1E /* Images.xcassets */,
 				D1E0A42B1AAEE2B300D35E1E /* LaunchScreen.xib */,
 				D1E0A4201AAEE2B300D35E1E /* Supporting Files */,
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1E0A4471AB16BE900D35E1E /* BackSegue.swift in Sources */,
 				D1E0A4251AAEE2B300D35E1E /* ViewController.swift in Sources */,
 				D1E0A4231AAEE2B300D35E1E /* AppDelegate.swift in Sources */,
+				D1E0A4431AB1606F00D35E1E /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +413,7 @@
 				D1E0A43E1AAEE2B400D35E1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1E0A43F1AAEE2B400D35E1E /* Build configuration list for PBXNativeTarget "tips-newTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				D1E0A4411AAEE2B400D35E1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

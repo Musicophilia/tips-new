@@ -16,6 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        var defaults = NSUserDefaults.standardUserDefaults()
+        defaults.setDouble(0.18, forKey: "defaultTip")
+        defaults.synchronize()
+        
         return true
     }
 
